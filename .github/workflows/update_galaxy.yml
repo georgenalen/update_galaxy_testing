@@ -15,7 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/ansible-galaxy-import@v1
+      - uses: ansible/ansible-publish-action@main
         with:
           galaxy_token: ${{ secrets.GALAXY_TOKEN }}
-          role_name: update_galaxy_testing

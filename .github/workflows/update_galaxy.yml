@@ -18,4 +18,4 @@ jobs:
       - uses: actions/ansible-galaxy-import@v1
         with:
           galaxy_token: ${{ secrets.GALAXY_TOKEN }}
-          role_name: my_ansible_rolen
+          role_name: update_galaxy_testing

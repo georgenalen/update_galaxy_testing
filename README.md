@@ -2,6 +2,7 @@
 
 
 # test 1
+# test 2
 
 Configure an Ubuntu 18 system to be DISA STIG compliant. All findings will be audited by default. Non-disruptive CAT I, CAT II, and CAT III findings will be corrected by default. Disruptive finding remediation can be enabled by setting `ubtu18stig_disruption_high` to `yes`.
 
